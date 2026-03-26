@@ -1,9 +1,14 @@
 #include <stdio.h>
 #include <windows.h>
+#include <stdlib.h>
+#include <time.h>
 
 int main() {
     SetConsoleOutputCP(65001);
     SetConsoleCP(65001);
+    srand(time(NULL));
+
+    int historico[5];
 
     int jogador = 100;
     int monstro = 80;
