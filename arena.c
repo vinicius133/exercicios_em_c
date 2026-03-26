@@ -25,9 +25,9 @@ int main() {
     }
     
     if (jogador > monstro){
-        printf("O Jogador Venceu! Jogador: %d Monstro %d", jogador, monstro);
+        printf("O Jogador Venceu! Jogador: %d\n Monstro %d\n", jogador, monstro);
     } else{
-        printf("O Monstro VenceuJogador: %d Monstro %d", jogador, monstro);
+        printf("O Monstro VenceuJogador: %d\n Monstro %d\n", jogador, monstro);
     }
 
     return 0;
