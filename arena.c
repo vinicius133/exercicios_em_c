@@ -18,9 +18,9 @@ int main() {
         printf("Qual sua ação?\n 1-Atacar\n 2-Curar\n");
         scanf("%d", &escolha);
 
-        if (escolha = 1){
+        if (escolha == 1){
             monstro = monstro - (rand() % 11 + 10);
-        } else if (escolha = 2){
+        } else if (escolha == 2){
             jogador = jogador + (rand() % 11 + 5);
         }
 
