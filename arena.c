@@ -10,7 +10,7 @@ int main() {
 
     int escolha;
     while (jogador > 0 && monstro > 0){
-        printf("Qual sua ação?\n 1-Atacar\n 2-Curar");
+        printf("Qual sua ação?\n 1-Atacar\n 2-Curar\n");
         scanf("%d", &escolha);
 
         if (escolha = 1){
@@ -25,9 +25,9 @@ int main() {
     }
     
     if (jogador > monstro){
-        printf("O Jogador Venceu!");
+        printf("O Jogador Venceu! Jogador: %d Monstro %d", jogador, monstro);
     } else{
-        printf("O Monstro Venceu");
+        printf("O Monstro VenceuJogador: %d Monstro %d", jogador, monstro);
     }
 
     return 0;
