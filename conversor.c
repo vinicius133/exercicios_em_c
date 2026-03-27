@@ -14,8 +14,6 @@ int main() {
 
  
     } else if(escolha == 2){
-        printf("Digite o número binário: ");
-        scanf("%d", &binario_entrada);
-        printf(binario_entrada);
+       
     }
 }
