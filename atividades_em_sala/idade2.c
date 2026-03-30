@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &idade);
     if (idade >= 18){
         diferenca = idade - 18;
-        printf("Já tem habilitação há %d anos!\n", &diferenca);
+        printf("Já tem habilitação há %d anos!\n", diferenca);
     } else{
         diferenca = 18 - idade;
         printf("Espere mais %d anos\n", diferenca);
