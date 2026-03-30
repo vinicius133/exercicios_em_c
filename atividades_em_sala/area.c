@@ -14,7 +14,7 @@ int main() {
     perimetro = 2 * pi * raio;
     printf("Raio: %.2f \n", raio);
     printf("Area: %.2f \n", area);
-    printf("Perime: %.2f \n", raio);
+    printf("Perimetro: %.2f \n", perimetro);
 
     return 0;
 }
