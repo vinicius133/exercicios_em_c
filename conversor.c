@@ -11,7 +11,6 @@ int main() {
     scanf("%d", &escolha);
 
     if(escolha == 1){
-
  
     } else if(escolha == 2){
        
