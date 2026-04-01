@@ -8,18 +8,19 @@ int main() {
     int a, b, c, temp;
     printf("Digite os 3 números para ordenar: ");
     scanf("%d %d %d", &a, &b, &c);
-    printf("A: %d\nB: %d\nC: %d\n", a, b, c);
 
     if (a > b){
-        a = temp;
+        temp = a;
         a = b;
         b = temp;
-    } else if(a > c){
-        a = temp;
+    } 
+    if(a > c){
+        temp = a;
         a = c;
         c = temp;
-    } else if(b > c){
-        b = temp;
+    } 
+    if(b > c){
+        temp = b;
         b = c;
         c = temp;
     }
