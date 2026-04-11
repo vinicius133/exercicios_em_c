@@ -15,7 +15,21 @@ int main() {
     if (a1 > a2){
         printf("A primeira data é maior!\n");
     } else if (a1 < a2){
-        
+        printf("A segunda data é maior!\n");
+    } else{
+        if (m1 > m2) {
+            printf("A primeira data é maior!\n");
+        } else if (m1 < m2) {
+            printf("A segunda data é maior!\n");
+        } else {
+            if (d1 > d2) {
+                printf("A primeira data é maior!\n");
+            } else if (d1 < d2) {
+                printf("A segunda data é maior!\n");
+            } else {
+                printf("As datas são iguais!\n");
+            }
+        }
     }
 
     return 0;
