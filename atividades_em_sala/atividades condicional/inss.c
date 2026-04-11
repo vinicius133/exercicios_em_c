@@ -29,7 +29,7 @@ int main() {
     scanf("%d", &cont);
 
     if (sexo == 'm'){
-
+        
     }
 
     return 0;
