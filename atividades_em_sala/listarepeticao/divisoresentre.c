@@ -2,7 +2,7 @@
 
 int main(){
 
-    int n, divisor;
+    int n;
 
     printf("Digite o valor de n: ");
     scanf("%d", &n);
