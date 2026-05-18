@@ -16,6 +16,7 @@ int main(){
 
             soma = soma + m[i][j];
 
+
         }
     }
     menor = m[0][0];
@@ -32,7 +33,7 @@ int main(){
     }
     
 
-    printf("\nA soma e: %.2f \nO maior e: %.2f\nO menor e: %.2f\n", soma, maior, menor);
+    printf("\nA soma e: %.2f \nO maior e: %.2f\nO menor e: %.2f\nA media e: %.2f", soma, maior, menor, soma/9);
 
 
     return 0;
