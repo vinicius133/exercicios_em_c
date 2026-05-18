@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main() {
 
     int D = 8, x = 5 + D, y = 0;
